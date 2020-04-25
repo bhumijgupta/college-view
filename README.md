@@ -13,7 +13,7 @@ Coming Soon
 
 ## Try Online
 
-The frontend is deployed on [gh-pages](https://bhumijgupta.github.io/college-view/). Have fun :sunglasses:
+The frontend is deployed on [gh-pages](https://bhumijgupta.github.io/college-view/index.html). Have fun :sunglasses:
 
 ## Run Locally
 
