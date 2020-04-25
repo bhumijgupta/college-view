@@ -99,7 +99,7 @@ let getCollegeInState = (state) => {
   $.get({ url: `${baseURL}college/state/${state}` })
     .done(({ college }) => {
       displayColleges(college);
-      $("#college-detail > div > header > span").html("in" + state);
+      $("#college-detail > div > header > span").html("in " + state);
     })
     .fail((err) => {
       console.log(err);
