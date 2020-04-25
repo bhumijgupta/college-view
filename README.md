@@ -1,7 +1,3 @@
-# College-View
-
-Your one stop destination to view all your college and student data intuitively
-
 <h1 align="center">College-View</h1>
 <p align="center">
 Your one stop destination to view all your college and student data intuitively
