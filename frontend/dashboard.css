@@ -1,0 +1,95 @@
+body {
+  font-family: "Muli", sans-serif !important;
+  background-color: #7c8bfb26;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #7c8bfb;
+  border-radius: 10px;
+}
+nav {
+  font-weight: 700;
+  background-color: white;
+  box-shadow: 0 0 8px 3px #00000026;
+}
+nav > a,
+nav > ul > li > a.nav-link {
+  color: #7c8bfb !important;
+}
+
+.body {
+  margin-top: 80px;
+}
+.card-body > header {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-bottom: 0.75rem;
+}
+.card {
+  background-color: white;
+}
+#search-form > .row > div {
+  margin: 5px 0;
+}
+.btn-custom {
+  background-color: #7c8bfb;
+  border-color: #7c8bfb;
+  color: white;
+}
+
+.btn-custom:hover {
+  color: white;
+}
+
+#not-found-vector {
+  max-height: 30vh;
+}
+
+.blue-font {
+  color: #7c8bfb;
+}
+
+.pointer {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* canvas {
+  width: 100%;
+  height: auto;
+} */
+
+#college-detail,
+#student-list,
+#student-detail {
+  max-height: 300px;
+}
+
+#college-detail-result,
+#student-list-result {
+  overflow-y: scroll;
+  max-height: 222px;
+}
+
+.card-shrink {
+  padding: 0.5rem !important;
+}
+
+#percent-college {
+  height: 300px;
+}
+
+#parent {
+  max-height: 250px;
+}
