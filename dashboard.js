@@ -10,7 +10,7 @@ let percentClgCanvas = $("#percent-college-canvas");
 let clgDetailResult = $("#college-detail-result");
 let studentListResult = $("#student-list-result");
 let studentDetailResult = $("#student-detail-result");
-let baseURL = "http://localhost:3000/";
+let baseURL = "https://college-view.herokuapp.com/";
 let currCollege = null;
 
 searchResult.hide();
